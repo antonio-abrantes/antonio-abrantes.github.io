@@ -1,0 +1,225 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+	display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: -15px;
+    	margin-top: 15px;
+    	font-size: 25px;
+	}
+	.navbar-nav>li>a {
+    	padding-top: 30px;
+    	padding-bottom: 15px;
+	}
+}
+.navbar-toggle{
+	background-color: #333;
+	z-index: 10;
+	margin-top: 17px;
+	position: absolute;
+	margin-left: 15px;
+}
+
+nav.navbar{
+	background: #DADFE1;
+	border: none;
+	margin-bottom: 0px;
+}
+
+.navbar-header{
+	height: 75px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #333;
+    font-weight: bolder;
+    margin-left: 0; 
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+    margin-top: -15px;
+}
+header{
+	width: 100%;
+	background: #DADFE1;
+	position: relative;
+}
+#sobre-mim .h1-titulo{
+	border-bottom: 2px solid grey;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo-grande{
+	margin-top: 25px;
+	z-index: 1;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1.0);
+}
+#logo-pequeno{
+	z-index: 1;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1.0);
+	margin-right: 25px;
+	margin-top: 25px;
+}
+#menu{	
+	padding-bottom: 15px;
+	margin-right: 0px;
+}
+#menu ul{
+	margin-top: 15px;
+}
+#menu li{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+#menu li a{
+	color: #333;
+}
+#menu li a:hover{
+	color: #E4F1FE;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1.0);
+	text-decoration: none;
+}
+#menu li a:active{
+	text-decoration: none;
+	outline: none;
+}
+
+section{
+	width: 100%;
+	height: auto;
+	background: #EEEEEE;
+}
+.h1-titulo{
+	margin: 0px;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+#principais-repositorios hr{
+	border: grey solid 1px;
+	width: 70%;
+	margin:  -20px auto 40px;
+}
+
+#trebalhos-academicos hr{
+	border: grey solid 1px;
+	width: 70%;
+	margin:  -20px auto 40px;
+}
+
+.img-linguagens{
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: solid 2px black;*/
+}
+.img-word{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: solid 2px black;*/
+}
+.apresentacao{
+	text-indent: 35px;
+	font-size: 18px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 5px 8px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+#principais-repositorios p{
+	height: 100px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#principais-repositorios a.btn{
+	width: 100%;
+}
+
+
+#bt-facebook, #bt-github, #bt-twitter,
+#bt-linkedin, #bt-instagram{
+	outline: none;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background: #DADFE1;
+}
+
+footer .container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer .label{
+	padding: 7px;
+}
+
+footer h4{
+	margin-bottom: 20px;
+}
+.descricao-portifolio{
+	height: 30px;
+}
+#provas i.ativado{
+	color: green;
+}
+
+#provas i.desativado{
+	color: #D91E18;
+}
+#provas i:hover{
+	color: #446CB3;
+}
+
+#provas p{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-bottom: 20px;
+}

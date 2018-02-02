@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+body .btn-primary{
+    background-color: #0F6FBB;
+    color: #e5fff6;
+}
+
+body .btn-primary:hover{
+    background-color: #1681bb;
+    color: #c3fcff;
+}
+
+.h1-titulo{
+    margin: 0px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#principais-repositorios hr{
+    border: grey solid 1px;
+    width: 70%;
+    margin:  -20px auto 40px;
+}
+
+#trebalhos-academicos hr{
+    border: grey solid 1px;
+    width: 70%;
+    margin:  -20px auto 40px;
+}
+
+#trebalhos-academicos .btn-primary{
+    border-radius: 25px 25px 25px 25px;
+}
+
+.img-linguagens{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid 2px black;*/
+}
+.img-word{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: solid 2px black;*/
+}
+.apresentacao{
+    text-indent: 35px;
+    font-size: 18px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 5px 8px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}
+#principais-repositorios p{
+    height: 100px;
+ /*   margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;*/
+    margin-bottom: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#principais-repositorios a{
+    color: #0F6FBB;
+    text-decoration: none;
+}
+
+#principais-repositorios a.btn{
+    border-radius: 25px 25px 25px 25px;
+    width: 100%;
+    background-color: #0F6FBB;
+    color: #e5fff6;
+}
+
+#bt-facebook, #bt-github, #bt-twitter,
+#bt-linkedin, #bt-instagram{
+    outline: none;
+}
+
+@media (max-width: 991px) {
+
+    #principais-repositorios p{
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    #principais-repositorios a.btn{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #principais-repositorios p{
+        padding: 5px;
+        font-size: 16px;
+    }
+
+    #principais-repositorios a.btn{
+        margin-top: 50px;
+    }
+}
+
+
+.copyright{
+    margin-top: 20px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+}
+
+footer .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .label{
+    padding: 7px;
+}
+
+footer h4{
+    margin-bottom: 20px;
+}
+.descricao-portifolio{
+    height: 30px;
+}
+#provas i.ativado{
+    color: green;
+}
+
+#provas i.desativado{
+    color: #D91E18;
+}
+#provas i:hover{
+    color: #446CB3;
+}
+
+#provas p{
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.info{
+   background-color: #d9edf7;
+}
+.success{
+    background-color: #dff0d8;
+}
+.warning{
+    background-color: #fcf8e3;
+}
+.danger{
+    background-color: #f2dede;
+}
+.label-primary{
+    font-size: 18px;
+    background-color: #0F6FBB;
+    color: white;
+    border-radius: 25px 25px 25px 25px;
+}
