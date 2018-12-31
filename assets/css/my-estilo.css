@@ -196,3 +196,8 @@ footer h4{
     color: white;
     border-radius: 25px 25px 25px 25px;
 }
+
+.graduate{
+    display: flex; align-items: center;justify-content: center;
+    margin-bottom: 30px;
+}
