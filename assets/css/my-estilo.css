@@ -201,3 +201,6 @@ footer h4{
     display: flex; align-items: center;justify-content: center;
     margin-bottom: 30px;
 }
+#frase{
+    margin: 0;
+}
