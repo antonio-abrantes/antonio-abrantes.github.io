@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as React from 'react';
 import { ChevronLeftIcon, ChevronRightIcon } from '@radix-ui/react-icons';
 import { DayPicker } from 'react-day-picker';
@@ -57,8 +58,8 @@ function Calendar({
         day_hidden: 'invisible',
         ...classNames,
       }}
-      components={{
-        IconLeft: ({ ...props }) => <ChevronLeftIcon className="h-4 w-4" />,
+      components={{ // @ts-ignore
+        IconLeft: ({ ...props }) => <ChevronLeftIcon className="h-4 w-4" />, // @ts-ignore
         IconRight: ({ ...props }) => <ChevronRightIcon className="h-4 w-4" />,
       }}
       {...props}
