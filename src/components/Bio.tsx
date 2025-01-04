@@ -4,9 +4,11 @@ export function Bio() {
   return (
     <div className="text-gray-300 max-w-2xl text-justify space-y-6">
     <p className="text-sm leading-relaxed indent">
-      Sou graduado em Análise e Desenvolvimento de Sistemas (2018), pós-graduado em Engenharia de Software (2020), 
-      Desenvolvimento Web Mobile (2021) e Desenvolvimento e Produção de Games (2022). 
-      Minha paixão pela programação me levou a desenvolver habilidades abrangentes tanto no front-end quanto no back-end.
+    Sou graduado em Análise e Desenvolvimento de Sistemas (2018), pós-graduado em Engenharia de Software (2020), 
+    Desenvolvimento Web Mobile (2021) e Desenvolvimento e Produção de Games (2022). Minha paixão pela programação 
+    me levou a desenvolver habilidades abrangentes tanto no front-end quanto no back-end. Atualmente, estou entusiasmado 
+    e dedicado ao estudo dos avanços em inteligência artificial, explorando tanto o uso de ferramentas inovadoras quanto 
+    o desenvolvimento de códigos que alavancam o poder da IA.
     </p>
 
 <div className="text-gray-300 max-w-2xl text-center space-y-6">
@@ -23,7 +25,8 @@ export function Bio() {
             <li><span style={{fontWeight: "700"}} >Ferramentas:</span> Git, SVN, UML, Scrum e XP</li>
             <li><span style={{fontWeight: "700"}} >Servidores:</span> Windows Server, Debian e CentOS</li>
             <li><span style={{fontWeight: "700"}} >Infra:</span> Docker, Portainer, Coolify</li>
-            <li><span style={{fontWeight: "700"}} >LowCode:</span> FlutterFlow, N8N, Dify, Bubble </li>
+            <li><span style={{fontWeight: "700"}} >LowCode:</span> FlutterFlow, N8N, Dify, Bubble, TypeBot</li>
+            <li><span style={{fontWeight: "700"}} >IA:</span> Flowise, Langflow, LangChain, Cursor, Bolt.new</li>
           </ul>
         </div>
 
