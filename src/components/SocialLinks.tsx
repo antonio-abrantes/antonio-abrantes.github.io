@@ -43,7 +43,7 @@ export function SocialLinks() {
           <span className="sr-only">Twitter</span>
         </a>
         <a 
-          href="https://github.com/antonio-abrantes/my-home-page"
+          href="https://github.com/antonio-abrantes/antonio-abrantes.github.io/"
           className="text-gray-400 hover:text-white transition-colors"
         >
           <ThumbsUp className="w-6 h-6" />
