@@ -10,7 +10,7 @@ export function Profile() {
       </Avatar>
       <div className="text-center">
         <h1 className="text-2xl font-semibold text-white">Antônio Abrantes</h1>
-        <p className="text-gray-400">👨‍💻 Systems Analyst | WebMobile Developer</p>
+        <p className="text-gray-400">👨‍💻 Frontend/Fullstack Developer | Systems Analyst</p>
       </div>
       <div className="text-center">
         <Bio />
